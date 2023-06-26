@@ -1,0 +1,43 @@
+#nav-bar{
+    background-color: pink;
+    color: #fff;
+    padding: 20px;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #nav-bar ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  #nav-bar ul li{
+    display: inline;
+    margin-right: 10px;
+  }
+  #nav-bar ul li a{
+    color: black;
+    text-decoration: none;
+}
+.hero{
+    background-image: url(/assets/img/logo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: black;
+}
+.hero h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about-container{
+    background-color: #fff;
+    padding: 50px 0 ;
+    text-align: center;
+}
+.about-container h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
